@@ -25,7 +25,7 @@ class InstaSpider():
     def __init__(self):
         datastr = open(FILENAME).read()
         self.data = json.loads(datastr)
-        self.usernames_not_seen = ["sahilshahss","frenzy_app"]
+        self.usernames_not_seen = ["hank","hank_app"]
         self.usernames_already_seen = []
 
         self.driver = webdriver.Chrome("/Users/hank/Study/Git/python/ins/chromedriver")
